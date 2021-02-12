@@ -1,0 +1,33 @@
+.mainDiv {
+    display: flex;
+    /*flex-wrap: nowrap;*/
+    width: 100%;
+    justify-content: space-around;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.block:hover {
+    /*-webkit-box-shadow: 0px 0px 500px 0px rgba(0,0,0,0.75);*/
+    /*-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);*/
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.degrees {
+    font-family: 'Lato regular', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.date {
+    background-color: #5a93b2;
+    color: white;
+    font-family: 'Lato bold', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}

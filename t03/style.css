@@ -1,0 +1,11 @@
+.japan {
+    position: relative;
+    border: 3px solid #cfcfcf;
+    width: 360px;
+    height: 240px;
+    background: radial-gradient(rgb(157, 48, 54) 53%, transparent 50%) 50%/50% 75% no-repeat;
+}
+
+h1 {
+    font-size: 42px;
+}

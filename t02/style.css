@@ -1,0 +1,26 @@
+form {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+}
+
+input {
+    color: green;
+    padding-left: 10px;
+    border-color: #2b60c5;
+    /*width: 100%;*/
+    /*outline: none;*/
+    /*border: none;*/
+}
+
+input:hover {
+    color: #af3835;
+}
+
+button {
+    color: green;
+}
+
+button:hover {
+    color: red;
+}
+

@@ -1,0 +1,44 @@
+#table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: 2px solid gainsboro;
+    padding: 5px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+#columnName {
+    background: black;
+    color: white;
+}
+
+#soul {
+    background: #ca944d;
+}
+
+#time {
+    background: #3b7d22;
+}
+
+#space {
+    background: #26568d;
+}
+
+#mind {
+    background: #fffe55;
+}
+
+#reality {
+    background: #af3835;
+}
+
+#power {
+    background: #7f76b2;
+}
