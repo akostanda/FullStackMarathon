@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="description" content="t06. Super back-up" charset="utf-8">
+    <title>Super back-up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="firstH">Superhero request form</h2>
+    <h2 id="seconH">What do you need help with?</h2>
+    <form>
+        <div class="emailType">
+            <input type="checkbox" id="defeat" style="display: none"/>
+            <label for="defeat"><span>DEFEAT A VILLAIN</span></label>
+            <input type="checkbox" id="save" style="display: none"/>
+            <label for="save"><span>SAVE A CIVILIAN</span></label>
+            <input type="checkbox" id="stop" style="display: none"/>
+            <label for="stop"><span>STOP A ROBBERY</span></label>
+        </div>
+        <div class="emailType">
+            <input type="checkbox" id="prevent" style="display: none"/>
+            <label for="prevent"><span>PREVENT AN APOCALYPSE</span></label>
+            <input type="checkbox" id="train" style="display: none"/>
+            <label for="train"><span>TRAIN A SIDEKICK</span></label>
+        </div>
+        <div class="emailType">
+            <input type="checkbox" id="other" style="display: none"/>
+            <label for="other"><span>OTHER STUFF</span></label>
+        </div>
+        <br/>
+        <div>
+            <input id="jobDetails" placeholder="Job details">
+            <div id="flexDiv">
+                <input id="details1" placeholder="Name">
+                <input id="details2" placeholder="Email">
+            </div>
+            <button>SEND</button>
+        </div>
+    </form>
+</body>
+</html>
