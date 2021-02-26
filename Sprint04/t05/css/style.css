@@ -1,0 +1,54 @@
+#wrapper {
+    margin: 50px;
+}
+
+.blocks {
+    width: 70px;
+    height: 70px;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+#first {
+    background: yellow;
+}
+
+.blocks[value="off"] {
+    border: 2px dashed #000;
+}
+
+.blocks:nth-child(1) {
+    top: 20px;
+    left: 300px;
+    background-color: yellow;
+}
+
+.blocks:nth-child(2) {
+    top: 100px;
+    left: 100px;
+    background: lightgreen;
+}
+
+.blocks:nth-child(3) {
+    top: 280px;
+    left: 200px;
+    background: blue;
+}
+
+.blocks:nth-child(4) {
+    top: 250px;
+    left: 600px;
+    background: lightcoral;
+}
+
+.blocks:nth-child(5) {
+    top: 450px;
+    left: 400px;
+    background: blueviolet;
+}
+
+.blocks:nth-child(6) {
+    top: 100px;
+    left: 500px;
+    background: palevioletred;
+}

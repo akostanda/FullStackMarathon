@@ -1,0 +1,31 @@
+div {
+    margin: 25px 10px 10px 10px;
+}
+.slides {
+    display: none;
+    height: 500px;
+    margin: 0px 57px 0px 60px;
+}
+
+#previous, #next {
+    cursor: pointer;
+    position: absolute;
+    height: 254.5px;
+    width: auto;
+    margin-top: -500px;
+    padding: 250px 16px 16px 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    background: rgba(172, 172, 172, .6);
+}
+
+#previous {
+    left: 28px;
+}
+
+#next {
+    right: 28px;
+}
+
