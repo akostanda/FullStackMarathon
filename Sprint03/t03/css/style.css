@@ -1,0 +1,14 @@
+/*#mainDiv {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+#human {
+    width: auto;
+    height: 400px;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
