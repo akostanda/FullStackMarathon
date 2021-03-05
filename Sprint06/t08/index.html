@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <title>A new set</title>
+    <style>
+        #dataFromForm {
+            border: 2px solid grey;
+            padding: 20px 20px 35px 20px;
+            background: rgb(192, 192, 192);
+        }
+        #form {
+            border: 2px solid grey;
+            padding: 20px 20px 35px 20px;
+        }
+        .data {
+            margin-left: 30px;
+        }
+        #post {
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+<h1>New Avenger application</h1>
+<div id="dataFromForm">
+    <div id="post">POST</div><br>
+    <code id="array">Array<br>
+        (<br>
+        <code class="data">[name]&emsp;=>&emsp;{{name}}</code><br>
+        <code class="data">[email]&emsp;=>&emsp;{{email}}</code><br>
+        <code class="data">[age]&emsp;=>&emsp;{{age}}</code><br>
+        <code class="data">[description]&emsp;=>&emsp;{{description}}</code><br>
+        <code class="data">[photo]&emsp;=>&emsp;{{photo}}</code><br>
+        )
+    </code>
+</div><br>
+<form id="form" action="/" method="POST">
+    <fieldset>
+        <legend>About candidate</legend><br>
+        <span>Name</span>
+        <label>
+            <input type="text" name="name"
+                   placeholder="Tell your name" size="18" autofocus>
+            <span>Superhero name</span>
+            <input type="text" name="email"
+                   placeholder="Tell your e-mail" size="18">
+            <span>Age</span>
+            <input type="number" name="age" min="1" max="999" step="1"
+                   size="5"><br><br>
+            <span>About</span>
+            <textarea name="description" id="about" cols="70" rows="5"
+                      maxlength="500"
+                      placeholder="Tell about yourself, max 500 symbols"></textarea><br><br>
+            <span>Your photo:</span>
+            <input type="file" name="photo">
+        </label>
+        <p></p>
+    </fieldset><br>
+    <button type="reset">CLEAR</button>
+    <button type="submit">SEND</button>
+</form>
+</body>
+
+</html>
