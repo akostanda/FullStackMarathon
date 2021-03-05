@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="t01. Session for new" charset="utf-8">
+    <title>Session for new</title>
+    <style>
+        /*form {*/
+        /*    border: 2px solid gray;*/
+        /*    padding: 20px;*/
+        /*}*/
+        #mainField {
+            border: none;
+            padding-left: 40px;
+        }
+        #butonField {
+            padding: 20px;
+        }
+        input {
+            background: none;
+            border-color: lightgray;
+        }
+        textarea {
+            font-family: Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Session for new</h1>
+    <fieldset id="mainField">
+        <code class="data">name: {{name}}</code><br>
+        <code class="data">alias:&emsp;{{alias}}</code><br>
+        <code class="data">age: {{age}}</code><br>
+        <code class="data">description: {{description}}</code><br>
+        <code class="data">photo: {{photo}}</code><br>
+        <code class="data">experience: {{experience}}</code><br>
+        <code class="data">level: {{level}}</code><br>
+        <code class="data">purpose: {{purpose}}</code><br>
+    </fieldset>
+    <form action="/" method="post">
+        <fieldset id="butonField">
+
+                <input  type="submit"  name="forget" value="FORGET">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

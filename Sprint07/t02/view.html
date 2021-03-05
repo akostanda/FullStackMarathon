@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="t02. Hack it!" charset="utf-8">
+    <title>Hack it!</title>
+</head>
+<body>
+    <h1>Password</h1>
+    <form action="/" method="post">
+        <p>Password not saved at session.</p>
+        <p>{{answer}}</p>
+        <p>
+            <label for="sPassword">Password for saving to session</label>
+            <input required placeholder="Password to session" type="text" id="sPassword" name="savePassword">
+        </p>
+        <p>
+            <label for="saltPas">Salt for saving to session</label>
+            <input required placeholder="Salt to session" type="number" id="saltPas" name="salt">
+        </p>
+            <input type="submit" id="saveButton" name="save" value="Save">
+    </form>
+</body>
+</html>
