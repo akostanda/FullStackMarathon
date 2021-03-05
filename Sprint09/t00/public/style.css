@@ -1,0 +1,39 @@
+#profile {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.inputField {
+    width: 200px;
+}
+
+.inputField::placeholder {
+    color: lightgray;
+}
+
+#regDiv {
+    margin-left: 8%;
+}
+
+#submit {
+    margin-left: 20%;
+}
+
+#answerDiv {
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+}

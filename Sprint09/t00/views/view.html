@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="t00. Registration">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form-wrap">
+    <div id="profile"><img src="https://academic-fitness.ru/wp-content/uploads/2017/09/user.png"></div>
+    <h1>Registration</h1>
+    <form action="/" method="post">
+        <div id="regDiv">
+            <p>
+                <input type="text" class="inputField" name="login" id="login" placeholder="Input your login" required>
+                <label for="login">Login</label>
+            </p>
+            <p>
+                <input type="password" class="inputField" name="password" id="password"
+                                                          placeholder="Input your password" required>
+                <label for="password">Password</label>
+            </p>
+
+            <p>
+                <input type="password" class="inputField" name="conPassword" id="conPassword"
+                                                          placeholder="Confirm your password" required>
+                <label for="conPassword">Confirm password</label>
+            </p>
+            <p>
+                <input type="text" class="inputField" name="name" id="name" placeholder="Input your full name" required>
+                <label for="name">Full name</label>
+            </p>
+            <p>
+                <input type="email" class="inputField" name="email" id="email" placeholder="Input your email" required>
+                <label for="email">E-mail</label>
+            </p>
+            <p>
+                <input type="submit" id="submit" value="Sing up">
+            </p>
+        </div>
+    </form>
+    <div id="answerDiv">
+        <p>{{passErr}}</p>
+    </div>
+</div>
+</body>
+</html>

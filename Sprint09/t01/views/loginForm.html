@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="t01. Login">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-wrap">
+        <h1 id="checkinTitle">Check in</h1>
+        <form id="checkinForm" action="/profile" method="post">
+            <div id="regDiv">
+                <p>
+                    <input type="text" class="inputField" name="login" id="login" placeholder="Input your login" required>
+                    <label for="login">Login</label>
+                </p>
+                <p>
+                    <input type="password" class="inputField" name="password" id="password"
+                                                              placeholder="Input your password" required>
+                    <label for="password">Password</label>
+                </p>
+                <p>
+                    <input type="submit" id="submit" value="Sing in">
+                </p>
+            </div>
+        </form>
+        <div id="checkAnswerDiv">
+            <p id="checkinAnswer">{{checkinErr}}</p>
+        </div>
+    </div>
+</body>
+</html>

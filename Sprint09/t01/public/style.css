@@ -1,0 +1,46 @@
+img {
+    width: 300px;
+    height: auto;
+}
+
+form {
+    display: flex;
+}
+
+.inputField {
+    width: 200px;
+}
+
+.inputField::placeholder {
+    color: lightgray;
+}
+
+#checkinTitle {
+    text-align: center;
+}
+
+#checkinAnswer {
+    text-align: center;
+}
+
+#checkinForm {
+    justify-content: center;
+}
+
+#profileDiv {
+    width: 400px;
+    margin-left: 350px;
+    margin-top: -330px;
+}
+
+#regDiv {
+    margin-left: 8%;
+}
+
+#submit {
+    margin-left: 20%;
+}
+
+#loginAnswerDiv {
+    margin-left: 80px;
+}

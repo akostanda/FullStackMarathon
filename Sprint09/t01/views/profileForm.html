@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="t01. Login">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="profile"><img src="https://academic-fitness.ru/wp-content/uploads/2017/09/user.png"></div>
+    <div id="loginAnswerDiv">
+        <p>{{loginAnswer}}</p>
+    </div>
+    <div class="form-wrap">
+        <form id="profileForm" action="/profile" method="post">
+            <div id="profileDiv">
+                <h1 id="profileTitle">Profile</h1>
+                <p>
+                    Full name: {{fullName}}
+                </p>
+                <p>
+                    Login: {{login}}
+                </p>
+                <p>
+                    Status: {{status}}
+                </p>
+                <p>
+                    E-mail: {{email}}
+                </p>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
